@@ -1,0 +1,43 @@
+.card-custom {
+
+
+    margin: 5px;
+    overflow: hidden;
+    background: rgb(221,221,221);
+    background: linear-gradient(180deg, rgba(221,221,221,1) 0%, rgba(252,252,252,1) 51%);
+    border-radius: 6px;
+    height: 400px;
+    -webkit-box-shadow: 8px 17px 53px -20px rgb(134, 134, 134);
+    -moz-box-shadow: 8px 17px 53px -20px rgb(141, 141, 141);
+    box-shadow: 8px 17px 53px -20px rgb(141, 141, 141);
+
+}
+
+.card-header {
+    width:100%;
+    height:64px;
+    top:0;
+    /* background:red; */
+}
+
+.card-footer {
+    /* position: relative; */
+    background:yellow;
+    width:100%;
+    bottom: 0px;
+}
+
+.card-content {
+
+    background:green;
+
+}
+
+.banner {
+    width: 40px;
+    height:20px;
+    background:red;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
