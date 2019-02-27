@@ -14,15 +14,67 @@
 
     <!-- Include the compiled Ratchet CSS -->
     <link href="../ratchet/css/ratchet.css" rel="stylesheet">
-    <link href="../ratchet/css/ratchet-theme-ios.css" rel="stylesheet">
-
+    <link href="../css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <!-- Include the compiled Ratchet JS -->
-    <script src="../ratchet/js/ratchet.js"></script>
+    <!-- <script src="../ratchet/js/ratchet.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aframe/0.7.1/aframe.min.js"></script>
+    <!-- include aframe-ar.js -->
+    <script src="../js/aframe-ar.js"></script>
 </head>
 
-<body>
+<body style="background: black">
+    <header class="bar bar-nav custom-bar" style="background: transparent; border: 0px; color:white;">
+        <a class="icon icon-left-nav pull-left" href="../index.html"></a>
+        <!-- <a class="icon icon-compose pull-right"></a> -->
+        <!-- <h1 class="title">Title</h1> -->
+    </header>
 
 
+
+    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+    <div class="content" style="margin-top: -44px;">
+
+        <div class="overlay">
+        </div>
+
+        <div class="car-background">
+
+        </div>
+
+        <div class="car-text">
+            <div class="long-flex" style="height:67%;">
+                <img class="crosshair-image" src="assets/car-crosshairs.png" style="width: 150px; height:150px;"/>
+            </div>
+            <div class="short-flex">
+                <h3 style="color:white;">
+                    Make sure you focus your camera on the car to detect it
+                </h3>
+            </div>
+            <div class="short-flex" style="bottom: 0px;">
+                <button class="btn large-white-btn">
+                    <a style="color:white;" href="https://f205a637.ngrok.io/camera-view.html">
+                        Yes, let's start
+                    </a>
+                </button>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <nav class="bar bar-tab transparent-gradient custom-bar">
+        <a class="tab-item active" href="#">
+            Label
+        </a>
+        <a class="tab-item" href="#">
+            Label
+        </a>
+        <a class="tab-item" href="#">
+            Label
+        </a>
+    </nav>
 </body>
 
 </html>

@@ -1,0 +1,15 @@
+.transparent-gradient {
+    background: rgb(221, 221, 221);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.271) 0%, rgba(91, 91, 91, 0.5340511204481793) 100%) !important;
+}
+
+.bar .icon {
+    color: white;
+}
+
+.bar {
+    border: 0px !important;
+    color: white !important;
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, .0) !important;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .0) !important;
+}

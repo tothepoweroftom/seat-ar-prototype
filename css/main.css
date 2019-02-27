@@ -1,10 +1,10 @@
 .card-custom {
 
-
+    position: relative;
     margin: 5px;
     overflow: hidden;
-    background: rgb(221,221,221);
-    background: linear-gradient(180deg, rgba(221,221,221,1) 0%, rgba(252,252,252,1) 51%);
+    background: rgb(221, 221, 221);
+    background: linear-gradient(180deg, rgba(221, 221, 221, 1) 0%, rgba(252, 252, 252, 1) 51%);
     border-radius: 6px;
     height: 400px;
     -webkit-box-shadow: 8px 17px 53px -20px rgb(134, 134, 134);
@@ -14,30 +14,161 @@
 }
 
 .card-header {
-    width:100%;
-    height:64px;
-    top:0;
+    width: 100%;
+    height: 64px;
+    top: 0;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     /* background:red; */
 }
 
+.top-header-text {
+    display: flex;
+    height: 30px;
+
+}
+
 .card-footer {
-    /* position: relative; */
-    background:yellow;
-    width:100%;
-    bottom: 0px;
+    /* background:yellow; */
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.flex-footer {
+    /* background:red; */
+}
+
+.one {
+    flex: 1 1 0;
+}
+
+.two {
+    flex: 1 1 0;
+}
+
+.three {
+    flex: 3 1 0;
+}
+
+
+.long-flex {
+    flex: 1 4 0;
+
+}
+
+.short-flex {
+    flex: 1 1 0;
+
 }
 
 .card-content {
+    padding-top: 20px;
+    max-height: 60%;
+}
 
-    background:green;
+.flex-footer a {
+    color: white;
+}
+
+.flex-footer .btn {
+    color: white;
+    background: black;
+    width: 80%;
+    font-weight: bold;
 
 }
 
 .banner {
-    width: 40px;
-    height:20px;
-    background:red;
+    width: 80px;
+    height: 20px;
+    padding: 0px 5px;
+    margin-left: 20px;
+    background: red;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
+    color: #fff;
+    right: 0px;
+    font-size: 14px;
+    position: absolute;
+}
+
+.transparent-gradient {
+    background: rgba(10, 10, 10, 0.2);
+}
+
+.bar .icon {
+    color: white;
+}
+
+.bar {
+    border: 0px !important;
+    color: white !important;
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, .0) !important;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .0) !important;
+}
+
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: rgba(102, 102, 102, 0.74);
+    z-index: 5;
+    color: white;
+}
+
+.crosshair-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.large-white-btn {
+    width:95%;
+    left:2.5%;
+    border:2px solid white;
+    background: transparent;
+    font-size: 20px;
+    color:white;
+    margin-top:10px;
+
+}
+
+.car-background {
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/seat-image.jpg");
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-position: center;
+    /* Center the image */
+    background-width: 100%;
+    /* Center the image */
+
+
+}
+
+.car-text {
+    flex-direction: column;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 7;
+    padding: 30px;
 
 }

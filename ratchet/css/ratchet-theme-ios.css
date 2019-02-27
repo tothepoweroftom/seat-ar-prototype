@@ -117,7 +117,7 @@ p {
 }
 
 .bar {
-  background-color: rgba(247, 247, 247, .98);
+  background-color: rgba(247, 247, 247, 0);
   border-bottom: 0;
   -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, .85);
           box-shadow: 0 0 1px rgba(0, 0, 0, .85);
@@ -147,7 +147,7 @@ p {
 }
 
 .bar-nav .btn-link {
-  color: #007aff;
+  color: #f3f3f3;
 }
 .bar-nav .btn-link:active {
   color: #007aff;
